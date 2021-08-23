@@ -3,7 +3,7 @@ const { check } = require('express-validator');
 
 const { validate } = require('../middlewares/validateFields');
 
-const { sendEmail } = require('../controllers/auth');
+const { sendEmail } = require('../controllers/handler');
 
 const router = Router();
 
