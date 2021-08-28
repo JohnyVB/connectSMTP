@@ -1,8 +1,8 @@
 {
-  "name": "07-restserver",
+  "name": "smtp_js_connect",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Conexión SMTP por medio de Nodemailer",
+  "main": "app.js",
   "scripts": {
     "start": "node app",
     "start:dev": "nodemon app"
@@ -16,6 +16,7 @@
     "express": "^4.17.1",
     "express-fileupload": "^1.2.1",
     "express-validator": "^6.9.2",
-    "mongoose": "^5.11.15"
+    "mongoose": "^5.11.15",
+    "nodemailer": "^6.6.3"
   }
 }
